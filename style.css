@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: #212227;
+    font-family: 'Inter', sans-serif; /* Inclui fallback para fontes genéricas */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza todo o texto do corpo */
+}
+
+header {
+    background-color: #151515; /* Cor de fundo do header */
+    padding: 20px;             /* Espaçamento interno */
+    color: white;              /* Cor do texto */
+}
+
+header nav {
+    display: flex;             /* Usa flexbox para o conteúdo do nav */
+    justify-content: center;   /* Centraliza o conteúdo dentro do nav */
+}
+
+img {
+    width: 25%;                /* Largura da imagem */
+    height: auto;              /* Altura automática para manter proporção */
+    display: block;            /* Remove espaços em branco abaixo da imagem */
+    margin: 0 auto;            /* Centraliza a imagem horizontalmente */
+}
+
+h1{
+    font-size:3em;
+    color: white;              /* Cor do texto */
+}
+h2{
+    font-size: 2.5em;
+    color: white;              /* Cor do texto */
+}
+p{
+    font-size: 1.2em;
+    color: white;              /* Cor do texto */
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;            
+}
+
+.nav-list, .footer-list {
+    display: flex;         
+    justify-content: center; 
+    gap: 50px;             
+    margin: 0;              /* Remove a margem padrão */
+    padding: 0;            /* Remove o padding padrão */
+}
+
+.nav-list li, .footer-list li {
+    margin: 0;               /* Remove a margem entre os itens da lista */
+}
+
+.nav-list a, .footer-list a {
+    text-decoration: none; 
+    color: white;         
+    font-weight: bold;
+}
+
+.box-tecnologias {
+    background-color: #151515; /* Cor de fundo do quadrado */
+    padding: 20px;             /* Espaçamento interno */
+    border-radius: 8px;        /* Bordas arredondadas (opcional) */
+    color: white;              /* Cor do texto */
+    text-align: left;          /* Alinha o texto à esquerda */
+    flex: 1 1 20%;             /* Permite que os quadrados tenham a mesma largura, com largura mínima de 20% */
+    margin: 10px;              /* Espaçamento entre os quadrados */
+    max-height: 300px;         /* Altura máxima do quadrado */
+    overflow: hidden;          /* Esconde o conteúdo que ultrapassar o limite da altura */
+    display: flex;             /* Flexbox para conteúdo interno */
+    flex-direction: column;    /* Coloca o conteúdo em coluna */
+    justify-content: space-between; /* Espaça o conteúdo internamente */
+    max-width: 300px;          /* Define uma largura máxima para os quadrados */
+}
+
+/* Container para os quadrados */
+.tech-container {
+    display: flex;             /* Usa flexbox para alinhar os quadrados lado a lado */
+    justify-content: center;   /* Centraliza os quadrados horizontalmente */
+    flex-wrap: wrap;           /* Permite que os quadrados quebrem para a próxima linha em telas menores */
+}
+
+/* Estilo para o texto principal nas tecnologias */
+.main-tech1, .main-tech2 {
+    text-align: center;
+    font-size: 2em;            /* Aumenta o tamanho da fonte */
+    font-weight: bold;         /* Negrito para destacar */
+    margin-bottom: auto;       /* Margem inferior automática para empurrar outros conteúdos para baixo */
+}
+
+
+.box-projetos {
+    background-color: #151515; /* Cor de fundo do quadrado */
+    padding: 20px;             /* Espaçamento interno */
+    border-radius: 8px;        /* Bordas arredondadas (opcional) */
+    color: white;              /* Cor do texto */
+    text-align: left;          /* Alinha o texto à esquerda */
+    flex: 1 1 20%;             /* Permite que os quadrados tenham a mesma largura, com largura mínima de 20% */
+    margin: 10px;              /* Espaçamento entre os quadrados */
+    max-height: 300px;         /* Altura máxima do quadrado */
+    overflow: hidden;          /* Esconde o conteúdo que ultrapassar o limite da altura */
+    display: flex;             /* Flexbox para conteúdo interno */
+    flex-direction: column;    /* Coloca o conteúdo em coluna */
+    justify-content: space-between; /* Espaça o conteúdo internamente */
+    max-width: 300px;          /* Define uma largura máxima para os quadrados */
+}
+
+/* Container para os quadrados de projetos */
+.project-container {
+    display: flex;             /* Usa flexbox para alinhar os quadrados lado a lado */
+    justify-content: center;   /* Centraliza os quadrados horizontalmente */
+    flex-wrap: wrap;           /* Permite que os quadrados quebrem para a próxima linha em telas menores */
+}
+
+/* Estilo para o texto principal nos projetos */
+.main-project1, .main-project2 {
+    text-align: center;
+    font-size: 2em;            /* Aumenta o tamanho da fonte */
+    font-weight: bold;         /* Negrito para destacar */
+    margin-bottom: auto;       /* Margem inferior automática para empurrar outros conteúdos para baixo */
+}
+
+
+footer {
+    background-color: #151515; /* Cor de fundo do footer */
+    padding: 20px;             /* Espaçamento interno */
+}
